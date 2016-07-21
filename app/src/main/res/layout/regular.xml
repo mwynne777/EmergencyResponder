@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#ffffff"
+    android:clickable="false">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Settings"
+        android:id="@+id/textView7"
+        android:layout_gravity="center_horizontal"
+        android:textSize="75sp"
+        android:textStyle="bold"
+        android:background="#ffffff"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Medical License Number: "
+        android:id="@+id/mln"
+        android:textSize="25sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#ba2020" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/one"
+        android:layout_marginLeft="470dp"
+        android:layout_marginTop="-30dp"
+        android:text="1234567" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="CPR Certification Number: "
+        android:id="@+id/cpr"
+        android:textSize="25sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#ba2020" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/two"
+        android:layout_marginLeft="470dp"
+        android:layout_marginTop="-30dp"
+        android:text="1234567" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Distance Willing to Travel (Miles): "
+        android:id="@+id/dis"
+        android:textSize="25sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#ba2020" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/three"
+        android:layout_marginLeft="470dp"
+        android:layout_marginTop="-30dp"
+        android:text="0.25" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Notifications: "
+        android:id="@+id/not"
+        android:textSize="25sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#ba2020" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OFF/ON"
+        android:id="@+id/switch1"
+        android:layout_gravity="right"
+        android:layout_marginTop="-22dp"
+        android:checked="true" />
+
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView2"
+        android:layout_gravity="right"
+        android:layout_marginTop="280dp"
+        android:layout_marginRight="75dp"
+        android:src="@drawable/realgodsend" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="-100dp"
+        android:layout_marginLeft="75dp"
+        android:text="Save Settings"
+        android:id="@+id/button"
+        android:background="@drawable/drawable_button2"
+        android:textSize="30dp"
+        android:textColor="#ba2020" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Skills: "
+        android:id="@+id/skills"
+        android:textSize="25sp"
+        android:layout_marginTop="-335dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#ba2020" />
+
+    <RadioButton
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="CPR Certified"
+        android:checked="true"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:checked="true"
+        android:text="First Aid Certified"
+        android:textSize="20dp"/>
+
+    <RadioButton
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="-80dp"
+        android:layout_marginLeft="480dp"
+        android:checked="false"
+        android:textSize="20dp"
+        android:text="Active Shooter Trained"
+        android:clickable="true"
+        android:contextClickable="false"
+        android:enabled="true"
+        android:allowUndo="true" />
+
+    <RadioButton
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="480dp"
+        android:checked="false"
+        android:textSize="20dp"
+        android:text="Disaster Physchology" />
+
+
+
+</LinearLayout>
